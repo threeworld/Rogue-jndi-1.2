@@ -59,7 +59,7 @@ Usage: java -jar target/RogueJndi-1.2.jar [options]
   Options:
     -c, --command  Command to execute on the target server (default: calc.exe)
     -n, --hostname Local HTTP server hostname (required for remote 
-                   classloading and websphere payloads) (default: 10.75.3.9)
+                   classloading and websphere payloads) (default: 127.0.0.1)
     -l, --ldapPort Ldap bind port (default: 1389)
     -p, --httpPort Http bind port (default: 8000)
     --wsdl         [websphere1 payload option] WSDL file with XXE payload 
