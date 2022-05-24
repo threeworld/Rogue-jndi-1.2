@@ -4,7 +4,7 @@
 
 原工具库：[veracode-research/rogue-jndi: A malicious LDAP server for JNDI injection attacks (github.com)](https://github.com/veracode-research/rogue-jndi)
 
-增加自定义gadget触发客户端代码执行 绕过高版本JDK远程加载限制
+此版本在原工具上增加自定义gadget，利用LDAP返回序列化数据触发客户端代码执行 绕过高版本JDK远程加载限制
 
 ### Bypass 
 
